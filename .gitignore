@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+#  Virtual Environment
+.venv/
+env/
+venv/
+
+#  PyInstaller
+*.spec
+
+# Test/coverage
+.coverage
+.cache/
+.tox/
+.nox/
+pytest_cache/
+htmlcov/
+*.cover
+
+#  Jupyter/VSCode/IDE stuff
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+
+#  Dźwięki i spektrogramy
+*.npy
+*.wav
+*.mp3
+*.png
+*.jpg
+
+#  FFmpeg folder (jeśli lokalny)
+ffmpeg/
