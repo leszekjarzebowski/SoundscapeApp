@@ -26,7 +26,6 @@ class Recording:
         description,
         category,
         image_path=None,
-        ml_label=None,
         id=None,
     ):
         self.id = id  # opcjonalnie – nadawane przez bazę
@@ -39,7 +38,6 @@ class Recording:
         self.description = description
         self.category = category
         self.image_path = image_path
-        self.ml_label = ml_label
 
     @classmethod
     def from_file(cls, path):
@@ -59,5 +57,4 @@ class Recording:
             "description": self.description,
             "category": self.category,
             "image_path": self.image_path,
-            "ml_label": self.ml_label,
         }
