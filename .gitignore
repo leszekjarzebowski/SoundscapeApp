@@ -1,24 +1,21 @@
-# Python
+# 🐍 Python cache
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
 *.so
-*.egg
-*.egg-info/
-dist/
-build/
-*.log
 
-#  Virtual Environment
+# 📦 Virtual Environments
 .venv/
 env/
 venv/
 
-#  PyInstaller
-*.spec
+# 🛠 Build/dist
+build/
+dist/
+*.egg-info/
 
-# Test/coverage
+# 🧪 Test/coverage
 .coverage
 .cache/
 .tox/
@@ -27,18 +24,22 @@ pytest_cache/
 htmlcov/
 *.cover
 
-#  Jupyter/VSCode/IDE stuff
-.ipynb_checkpoints/
-.vscode/
-.idea/
-*.swp
-
-#  Dźwięki i spektrogramy
+# 🔈 Dźwięki i spektrogramy (jeśli generujesz je lokalnie)
 *.npy
 *.wav
 *.mp3
 *.png
 *.jpg
 
-#  FFmpeg folder (jeśli lokalny)
+# ⚙️ FFmpeg – jeśli NIE chcesz go trzymać w repo
 ffmpeg/
+
+# 🧠 VS Code config
+.vscode/
+*.code-workspace
+
+# 📒 Jupyter (na przyszłość)
+.ipynb_checkpoints/
+
+# 📄 Logi
+*.log
