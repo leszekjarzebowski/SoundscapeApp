@@ -1,0 +1,36 @@
+SoundscapeApp/
+├── .git/
+├── .venv/
+├── db/
+├── exports/
+│   ├── analysis/
+│   ├── features/
+│   ├── metadata/
+│   ├── spectograms/
+│   ├── web/
+│   │   ├── images/
+│   │   └── mp3/
+│   └── index.json
+├── ffmpeg/  pliki exe ffmpeg
+├── sounds/
+├── src/
+│   ├── core/
+│   │   ├── audio.py
+│   │   ├── database.py
+│   │   ├── ml_label.py
+│   │   └── recording.py
+│   ├── ml/
+│   │   ├── classification.py
+│   │   ├── clustering.py
+│   │   └── features.py
+│   ├── modules/
+│   │   ├── analyzer.py
+│   │   ├── exporter.py
+│   │   ├── importer.py
+│   │   ├── map_exporter.py
+│   │   └── viewer.py
+│   └── config.py
+├── main.py
+├── project_structure.txt
+├── README.md
+└── struktura.py #plik generujacy strukture projektu nieistotny dla projektu
