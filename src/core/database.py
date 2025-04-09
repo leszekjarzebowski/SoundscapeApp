@@ -16,3 +16,8 @@
 # - add_ml_label(ml_label: MLLabel) – dodaje etykietę do bazy
 # - get_ml_labels_by_recording(recording_id) – zwraca listę etykiet dla nagrania
 # - delete_ml_labels(recording_id) – usuwa etykiety powiązane z nagraniem (np. przy reanalizie)
+
+
+# TODO: Obsługa bazy danych dźwięków i metadanych (JSON/SQLite)
+# TODO: Wczytywanie i zapisywanie bazy UCS z pliku JSON (np. db/ucs.json)
+# TODO: Walidacja, czy CatID z metadanych istnieje w bazie UCS

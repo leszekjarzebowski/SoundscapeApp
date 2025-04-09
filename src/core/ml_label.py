@@ -12,3 +12,5 @@
 # Metody:
 # - from_prediction(recording_id, label, confidence=None, model=None) – fabryka z predykcji ML
 # - to_dict() – do serializacji i zapisu w bazie
+# TODO: Współpraca z UCS – przypisywanie etykiet ML na podstawie CatID
+# TODO: Przypisywanie etykiet po polsku, ale zapis jako angielski CatID

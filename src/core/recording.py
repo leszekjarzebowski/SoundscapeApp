@@ -12,6 +12,9 @@
 # - to_dict() – do zapisu w bazie
 
 # src/core/recording.py
+# TODO: Obiekt reprezentujący nagranie – dźwięk, lokalizacja, opis, kategorie
+# TODO: Integracja z UCS (kategoria po polsku ➝ CatID po angielsku)
+# TODO: Obsługa nazwy pliku w stylu UCS (parsowanie/składanie)
 
 
 class Recording:
