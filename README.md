@@ -1,3 +1,9 @@
+------WAZNE------
+Działające prototypy i testy znajdziesz w katalogu prototypes/
+Opis prototypow w README_prototypes.md
+
+---
+
 🔄 UCS Integration – Plan i Ustalenia (2025-04-09)
 Aplikacja soundscape_app będzie wykorzystywać system UCS (Universal Category System) do klasyfikacji dźwięków. Umożliwi to łatwe sortowanie, przeszukiwanie i przygotowanie danych do uczenia maszynowego.
 
