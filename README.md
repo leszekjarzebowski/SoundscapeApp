@@ -1,6 +1,13 @@
 ------WAZNE------
-Działające prototypy i testy znajdziesz w katalogu prototypes/
-Opis prototypow w README_prototypes.md
+Wytyczne dotyczące kodowania w projekcie:
+
+1.  **Dokumentacja:** Kod piszemy wraz z dokumentacją w stylu Google Style.
+2.  **Dobre praktyki:** Stosujemy ogólnie przyjęte zasady dobrego kodowania (np. SOLID, DRY, KISS), dbając o czystość, czytelność i utrzymywalność kodu.
+3.  **Modularność i Niezależność:** Każda klasa powinna stanowić osobny, niezależny byt, odpowiedzialny za jedno konkretne zadanie (Zasada Pojedynczej Odpowiedzialności - SRP). Dążymy do minimalizowania powiązań między klasami.
+4.  **Testowalność:** Niezależne klasy/moduły powinny być łatwe do testowania jednostkowego.
+5.  **Separacja warstw:** Logika backendu (FastAPI, zarządzanie danymi, logika biznesowa) jest oddzielona od interfejsu użytkownika.
+6.  **FastAPI jako "Dyspozytor":** Wykorzystujemy FastAPI jako "pomost" i "dyspozytora", który odbiera żądania i kieruje je do odpowiednich, niezależnych modułów/klas w celu wykonania operacji.
+7.  **Walidacja danych:** Używamy Pydantic w FastAPI do definiowania schematów danych i ich walidacji.
 
 ---
 
